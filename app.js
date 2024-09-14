@@ -1,5 +1,5 @@
-import { fetchData } from "./fetchData.js";
-import { renderData } from "./renderData.js";
+import { fetchData } from "./module/fetchData.js";
+import { renderData } from "./module/renderData.js";
 const loadingContainer = document.querySelector('.loading-container');
 
 // console.log(fetchData());
